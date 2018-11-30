@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-05 13:23-0800\n"
-"PO-Revision-Date: 2018-11-15 18:32+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2018-09-06 00:09+0000\n"
+"Last-Translator: Cleiton Floss <cleitonfloss@gmail.com>\n"
 "Language-Team: Finnish <https://weblate.elementary.io/projects/music/music/"
 "fi/>\n"
 "Language: fi\n"
@@ -262,13 +262,14 @@ msgid ""
 msgstr "CD-levyltä ei löytynyt yhtäkään kappaletta. Kappaleita ei voi tuoda"
 
 #: plugins/Devices/CDRom/CDRomDevice.vala:354
+#, fuzzy
 msgid "Song imported from Audio CD."
-msgstr "Kappale tuotu ääni-CD:ltä."
+msgstr "Tuo kappaleet audio-CD:ltä"
 
 #: plugins/Devices/CDRom/CDRomDevice.vala:354
-#, c-format
+#, fuzzy, c-format
 msgid "%i songs imported from Audio CD."
-msgstr "%s kappaletta tuotu ääni-CD:ltä."
+msgstr "%s on tuonut kappaleen ääni-CD:ltä."
 
 #: plugins/Devices/CDRom/CDRomDevice.vala:359
 #, c-format
@@ -281,19 +282,21 @@ msgstr "CD-tuonti <b>perutaan</b> nykyisen tuonnin jälkeen."
 
 #: plugins/Devices/CDRom/CDRomDevice.vala:383
 msgid "Could not import this CD"
-msgstr "Tätä CD:tä ei voitu tuoda"
+msgstr ""
 
 #: plugins/Devices/CDRom/CDView.vala:75 src/Dialogs/SyncWarningDialog.vala:62
 msgid "Import"
 msgstr "Tuo"
 
 #: plugins/Devices/CDRom/CDViewWrapper.vala:37
+#, fuzzy
 msgid "An Error Occurred"
-msgstr "Tapahtui virhe"
+msgstr "Virhetilanne"
 
 #: plugins/Devices/CDRom/CDViewWrapper.vala:38
+#, fuzzy
 msgid "Could not load this Audio CD."
-msgstr "Tätä ääni-CD:tä ei voitu ladata."
+msgstr "%s ei pystynyt lukemaan ääni-CD:n sisältöä."
 
 #: plugins/Devices/iPod/iPodLibrary.vala:218
 #: plugins/Devices/iPod/iPodLibrary.vala:374
@@ -499,8 +502,9 @@ msgid "Track:"
 msgstr "Kappale:"
 
 #: src/Dialogs/MediaEditor.vala:118
+#, fuzzy
 msgid "Disc:"
-msgstr "Levy:"
+msgstr "Levy"
 
 #: src/Dialogs/MediaEditor.vala:120
 msgid "Rating:"
@@ -1491,14 +1495,17 @@ msgid "Disable Shuffle"
 msgstr "Poista sekoitus käytöstä"
 
 #: src/Widgets/ViewSelector.vala:81
+#, fuzzy
 msgid "View as albums"
 msgstr "Näytä albumeina"
 
 #: src/Widgets/ViewSelector.vala:87
+#, fuzzy
 msgid "View as list"
 msgstr "Näytä luettelona"
 
 #: src/Widgets/ViewSelector.vala:93
+#, fuzzy
 msgid "View in columns"
 msgstr "Näytä sarakkeina"
 
